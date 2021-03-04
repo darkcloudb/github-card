@@ -13,7 +13,6 @@ function App() {
     fetch("https://api.github.com/users/darkcloudb")
       .then((res) => res.json())
       .then((data) => setUser(data));
-    console.log(user);
   };
 
   return (
