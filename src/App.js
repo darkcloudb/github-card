@@ -31,8 +31,8 @@ function App() {
           <Card.Body>
             <Card.Title>{user.name}</Card.Title>
             <Card.Text>
-              <p>Followers: {user.followers}</p>
-              <p>Created: {user.created_at}</p>
+              <p>{user.bio}</p>
+              <p>Location: {user.location}</p>
             </Card.Text>
           </Card.Body>
         </Card>
