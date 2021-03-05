@@ -5,7 +5,6 @@ import { Card } from "react-bootstrap";
 
 function App() {
   const [display, setDisplay] = useState(false);
-
   const [user, setUser] = useState({});
 
   const handleClick = () => {
