@@ -23,10 +23,7 @@ function App() {
 
       {display ? (
         <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://avatars.githubusercontent.com/u/73850400?v=4"
-          />
+          <Card.Img variant="top" src={user.avatar_url} />
           <Card.Body>
             <Card.Title>{user.name}</Card.Title>
             <Card.Text>
